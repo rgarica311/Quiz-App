@@ -126,7 +126,7 @@ function makeNextButton() {
 
 function showCorrectAnsImg() {
   if ( $('.film-image').attr('src') === "Assets/film-strip2.png" ) {
-    $('.film-image').attr('src', 'Assets/Oscars-Icon.jpg')
+    $('.film-image').attr('src', 'Assets/Oscars-Icon-Correct.jpg')
   }
   $('.quiz').addClass('hide')
   makeNextButton()
