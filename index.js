@@ -121,7 +121,7 @@ function removeAnswerImg() {
 }
 
 function makeNextButton() {
-  $('.content').append('<button class="quiz-button next"><span class="button-text">NEXT!</span>')
+  $('.content').append('<button class="quiz-button next" style="width: 100%; left:0px;"><span class="button-text">NEXT!</span>')
 }
 
 function showCorrectAnsImg() {
