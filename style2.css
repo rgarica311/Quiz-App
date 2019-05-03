@@ -82,6 +82,11 @@ button.enter-button {
   left: 0px;
 }
 
+button.next {
+  width: 100%;
+  left: 0px;
+}
+
 
 ul {
   background-color: black;
