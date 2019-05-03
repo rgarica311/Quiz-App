@@ -78,9 +78,9 @@ html, body {
 }
 
 .result-message {
-  position: relative;
+  position: absolute;
   bottom: 50%;
-  left: 35%;
+  left: 32%;
 }
 
 
@@ -174,9 +174,9 @@ label:hover, label:focus {
   }
 
   .result-message {
-    position: relative;
+    position: absolute;
     bottom: 50%;
-    left: 35%;
+    left: 25%;
   }
 }
 
@@ -193,9 +193,9 @@ label:hover, label:focus {
   }
 
   .result-message {
-    position: relative;
+    position: absolute;
     bottom: 50%;
-    left: 35%;
+    left: 25%;
   }
 }
 
