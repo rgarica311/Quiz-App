@@ -77,6 +77,13 @@ html, body {
 
 }
 
+.result-message {
+  position: relative;
+  bottom: 50%;
+  left: 35%;
+}
+
+
 button.enter-button {
   width: 100%;
   left: 0px;
@@ -126,6 +133,11 @@ img {
   left: 25%;
 }
 
+button.restart {
+  width: 100%;
+  left: 0px;
+}
+
 h2, h1 {
   text-align: center;
 }
@@ -160,6 +172,12 @@ label:hover, label:focus {
     grid-template-columns: 5px repeat(1, 1fr) 5px;
 
   }
+
+  .result-message {
+    position: relative;
+    bottom: 50%;
+    left: 35%;
+  }
 }
 
 @media screen and (max-width: 705px) {
@@ -172,6 +190,12 @@ label:hover, label:focus {
   label {
     padding: 5px;
     margin-bottom: 0px;
+  }
+
+  .result-message {
+    position: relative;
+    bottom: 50%;
+    left: 35%;
   }
 }
 
