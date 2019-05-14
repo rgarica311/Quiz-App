@@ -9,6 +9,8 @@ function testButton() {
 function hideBeginQuiz() {
   $('.content').on('click', '.quiz-button', function(event){
     $(event.currentTarget).parent().css('display', 'none');
+    $('.main').attr('style', 'width: 750px');
+
     showQuiz()
   })
 }
